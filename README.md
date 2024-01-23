@@ -6,7 +6,7 @@ Dynamic daily planner web app which allows users to manage their busy schedules.
 
 ## Usage
 
-#### Access the application on: 
+#### Access the application on: https://rootgeorge17.github.io/dynamic-calendar-js/
 #### The following gif shows the web application's appearance and functionality:
 
 ![](images/05-third-party-apis-homework-demo.gif)
