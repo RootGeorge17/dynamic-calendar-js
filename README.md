@@ -2,7 +2,7 @@
 
 ## Description
 
-Dynamic daily planner web app which allows users to manage their busy schedules. The app presents color-coded  timeblocks for past, present, and future events, enabling event entry on click, saving events to local storage, and persisting events between page refreshes.
+Dynamic Daily Planner web app which allows users to manage their busy schedules. The app presents color-coded timeblocks for past, present, and future events, enabling event entry, saving events to local storage, and persisting events between page refreshes.
 
 ## Usage
 
