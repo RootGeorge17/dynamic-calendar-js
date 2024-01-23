@@ -19,6 +19,10 @@
     <h1 class="display-3">Work Day Scheduler</h1>
     <p class="lead">A simple calendar app for scheduling your work day</p>
     <p id="currentDay" class="lead"></p>
+    <p class="lead">Gray textarea = Past time-block; Orange textarea = Present time-block; Green textarea = Future
+      time-block</p>
+    <p class="lead">Enter & Save your calendar events in the coloured textareas below, they will be saved in your
+      browser's local storage</p>
   </header>
 
   <div class="container-fluid">
@@ -72,7 +76,9 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+  <script src="https://unpkg.com/dayjs@1.8.21/plugin/advancedFormat"></script>
   <script src="assets/js/date.js"></script>
+  <script src="assets/js/timeblocks.js"></script>
 </body>
 
 </html>

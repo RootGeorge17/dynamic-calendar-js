@@ -1,6 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1;
 }
 
@@ -19,7 +19,6 @@ header {
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
-  padding: 20px;
 }
 
 .description {
@@ -33,7 +32,7 @@ header {
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
+  height: 75px;
   border-top: 1px solid white;
 }
 
