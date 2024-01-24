@@ -5,6 +5,7 @@ function colourTimeBlocks() {
   timeblocks.each(function (index, element) {
     var hourText = $(this).find('.hour').text();
     var hour = parseInt(hourText);
+
     var textarea = $(this).find('.description');
 
     textarea.toggleClass('past', hour < currentHour);
@@ -14,7 +15,10 @@ function colourTimeBlocks() {
 }
 
 function saveEvent() {
+  var textareaValue = $(this).siblings('.description').val();
+  var hourKey = $(this).siblings('.hour').text().trim();
 
+  localStorage.setItem(hourKey, textareaValue);
 }
 
 function showSavedEvents() {
@@ -22,3 +26,5 @@ function showSavedEvents() {
 }
 
 colourTimeBlocks();
+
+$('.saveBtn').on('click', saveEvent);
